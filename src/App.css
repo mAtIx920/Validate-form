@@ -33,3 +33,13 @@ label input{
 .modal-wrapper p span {
   font-weight: bold;
 }
+
+.photo {
+  padding: 5px;
+  font-size: 15px;
+}
+
+.photo span {
+  text-align: center;
+  font-weight: bold;
+}

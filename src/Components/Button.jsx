@@ -1,7 +1,7 @@
-function Buttons({text, type}) {
+function Button({text, savingFunction}) {
   return (
-    <button className='btn btn-dark btn-outline-secondary w-50' type={type}>{text}</button>
+    <button onClick={() => savingFunction()} className='btn btn-dark btn-outline-secondary w-50' type='button'>{text}</button>
   )
 }
 
-export default Buttons
+export default Button
